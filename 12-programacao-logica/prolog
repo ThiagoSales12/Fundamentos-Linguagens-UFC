@@ -1,0 +1,24 @@
+homem := ["joao"]
+mulher := ["ana"]
+progenitores := [
+    ("joao", "pedro"),
+    ("ana", "pedro")
+]
+
+função pai(X, Y):
+    retorna (X, Y) está em progenitores E X está em homem
+
+função mae(X, Y):
+    retorna (X, Y) está em progenitores E X está em mulher
+
+função avo(X, Y):
+    para cada (X, Z) em progenitores:
+        se (Z, Y) também estiver em progenitores:
+            retorna verdadeiro
+    retorna falso
+
+função irmao(X, Y):
+    para cada Z em todos os possíveis progenitores:
+        se (Z, X) e (Z, Y) estão em progenitores E X ≠ Y:
+            retorna verdadeiro
+    retorna falso
