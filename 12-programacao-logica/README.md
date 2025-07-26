@@ -20,8 +20,6 @@ Um programa em Prolog não tem um fluxo de execução tradicional. Ele é compos
 
 Para demonstrar os conceitos fundamentais da programação lógica, escolhemos modelar um problema clássico e intuitivo: uma árvore genealógica simples. Esse tipo de problema é ideal para ilustrar como podemos definir relações familiares complexas a partir de informações básicas.
 
----
-
 ### Estrutura do Código Prolog
 
 O código Prolog para uma árvore genealógica é tipicamente dividido em duas partes essenciais:
@@ -41,8 +39,6 @@ O código Prolog para uma árvore genealógica é tipicamente dividido em duas p
     irmao(X, Y) :- progenitor(Z, X), progenitor(Z, Y), X \= Y. % X é irmão de Y se eles têm o mesmo progenitor Z E X não é o próprio Y
     ```
 Essa organização facilita a manutenção e ampliação do conhecimento, tornando o código claro e modular.
-
----
 
 ### Exemplos de Consultas (Queries)
 
