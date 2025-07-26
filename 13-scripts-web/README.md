@@ -32,7 +32,7 @@ Para ver o organizador de arquivos em ação:
     python organizador_de_arquivos.py
     ```
 
-O script irá mover os arquivos da pasta `origem` para subpastas categorizadas dentro da pasta `destino` e exibirá um relatório detalhado no console, informando as ações realizadas.
+    O script irá mover os arquivos da pasta `origem` para subpastas categorizadas dentro da pasta `destino` e exibirá um relatório detalhado no console, informando as ações realizadas.
 
 ---
 
